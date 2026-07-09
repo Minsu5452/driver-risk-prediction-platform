@@ -1,0 +1,23 @@
+[project]
+name = "driver-risk-ai-engine"
+version = "0.1.0"
+description = "교통사고 위험도 예측 AI 엔진 (FastAPI + ML)"
+license = "Apache-2.0"
+authors = [{ name = "Minsu Kang", email = "daro980722@gmail.com" }]
+requires-python = ">=3.10, <3.11"
+dependencies = [
+    "catboost==1.2.8",
+    "fastapi==0.128.0",
+    "joblib==1.5.2",
+    "numpy==2.0.2",
+    "pandas==2.2.2",
+    "pyarrow==22.0.0",
+    "scikit-learn==1.6.1",
+    "shap==0.49.1",
+    "uvicorn==0.40.0",
+    "xgboost==3.0.5",
+    "openpyxl>=3.1.5",
+    "python-multipart>=0.0.22",
+    "lightgbm==4.6.0",
+    "python-calamine>=0.6.1",
+]
