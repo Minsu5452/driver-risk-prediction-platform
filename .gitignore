@@ -1,0 +1,59 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+ai-engine/.venv/
+
+# AI Engine data (sensitive)
+ai-engine/data/uploads/
+ai-engine/data/admin.db
+ai-engine/data/admin.db-wal
+ai-engine/data/admin.db-shm
+ai-engine/data/test_real_data/
+ai-engine/data/train/
+ai-engine/data/train.csv
+ai-engine/artifacts/versions/
+ai-engine/log/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Build output
+/dist/
+*.zip
+
+# Java
+*.class
+
+# Backend
+backend/target/
+backend/backend
+backend/log/
+backend/files/
+
+# First data / raw data
+first_data/
+/data/
+real_data/
+driver-risk-ai-engine/
+data_preprocess/
+
+# 도구 상태
+.omc/
