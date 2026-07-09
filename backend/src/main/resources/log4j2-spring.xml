@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+	<Properties>
+		<Property name="LOG_PATH">./log</Property>
+		<Property name="LOG_FILE_NAME">backend</Property>
+		<Property name="LOG_PATTERN">[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{5}:%line] - %msg%n</Property>
+	</Properties>
+
+	<Appenders>
+		<!-- CONSOLE -->
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</Console>
+
+		<!-- FILE (Rolling) -->
+		<RollingFile name="FILE"
+			fileName="${LOG_PATH}/${LOG_FILE_NAME}.log"
+			filePattern="${LOG_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}_%i.log">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+				<SizeBasedTriggeringPolicy size="10MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="30" />
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="CONSOLE" />
+			<AppenderRef ref="FILE" />
+		</Root>
+	</Loggers>
+
+</Configuration>
