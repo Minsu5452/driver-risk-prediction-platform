@@ -35,7 +35,7 @@
 
 | 영역 | 기술 |
 |---|---|
-| AI 엔진 | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-5B6770) ![XGBoost](https://img.shields.io/badge/XGBoost-5B6770) ![CatBoost](https://img.shields.io/badge/CatBoost-5B6770) ![SHAP](https://img.shields.io/badge/SHAP-5B6770) |
+| AI 엔진 | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2C5F2D) ![XGBoost](https://img.shields.io/badge/XGBoost-EB0028) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00) ![SHAP](https://img.shields.io/badge/SHAP-5B6770) |
 | 프론트엔드 | ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![Mantine](https://img.shields.io/badge/Mantine-339AF0?logo=mantine&logoColor=white) |
 | 백엔드 | ![Java](https://img.shields.io/badge/Java_8-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white) ![eGovFrame](https://img.shields.io/badge/eGovFrame_4.3-005BAC) |
 | 인프라·배포 | ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white) ![Windows](https://img.shields.io/badge/Windows_포터블-0078D4) |
